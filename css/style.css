@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/background.jpg);
+    text-align: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+header{
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.70);
+
+}
+.logo{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    opacity: 0.7;
+
+}
+nav{
+    margin-right: 20px;
+}
+nav a{
+    background-color: darkgray;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+    margin-right: 5px;
+    
+}
+nav a:hover{
+    background-color: rgb(105, 103, 103);
+}
+.profile{
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.70);
+}
+.profile-img{
+    border-radius: 50%;
+}
+.profile h2{
+    padding: 20px;
+    font-size: 30px;
+}
+.redes-sociais img{
+    padding: 10px;
+}
+.redes-sociais{
+    padding: 10px;
+}
+.sobre{
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.70);
+    margin-bottom: 50px;
+}
+.sobre img{
+    max-width: 70%;
+    padding: 20px;
+}
+
+.sobre p{
+    font-size: 20px;
+}
+footer{
+    background-color: darkgray;
+}
